@@ -1,0 +1,51 @@
+{
+	"database": {
+		"default": {
+			"driver": "sqlite",
+			"file": "./admin.db"
+		},
+		"dogxss": {
+			"driver": "sqlite",
+			"file": "./dogxss.db"
+		}
+	},
+	"app_id": "2B443yphL0GY",
+	"language": "cn",
+	"prefix": "admin",
+	"theme": "sword",
+	"store": {
+		"path": "./exp",
+		"prefix": ""
+	},
+	"title": "DogXss",
+	"logo": "DogXss",
+	"mini_logo": "GA",
+	"index": "/dogxss/",
+	"login_url": "/dogxss/login",
+	"debug": false,
+	"env": "prod",
+	"info_log": "./logs/info.log",
+	"error_log": "./logs/error.log",
+	"access_log": "./logs/access.log",
+	"session_life_time": 7200,
+	"file_upload_engine": {
+		"name": "local"
+	},
+	"login_title": "DogXss",
+	"login_logo": "DogXss",
+	"auth_user_table": "goadmin_users",
+	"bootstrap_file_path": "./bootstrap.go",
+	"go_mod_file_path": "./go.mod",
+	"asset_root_path": "./public/",
+	"url_format": {
+		"info": "/info/:__prefix",
+		"detail": "/info/:__prefix/detail",
+		"create": "/new/:__prefix",
+		"delete": "/delete/:__prefix",
+		"export": "/export/:__prefix",
+		"edit": "/edit/:__prefix",
+		"show_edit": "/info/:__prefix/edit",
+		"show_create": "/info/:__prefix/new",
+		"update": "/update/:__prefix"
+	}
+}

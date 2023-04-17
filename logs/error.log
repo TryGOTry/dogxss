@@ -1,0 +1,496 @@
+2023-03-01T10:19:07.847+0800	[31mERROR[0m	controller/edit.go:64	receive data error: wrong id
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:64
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:31
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/edit.go:72
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-01T10:19:12.371+0800	[31mERROR[0m	controller/edit.go:64	receive data error: wrong id
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:64
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:31
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/edit.go:72
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-02T17:57:35.101+0800	[31mERROR[0m	controller/handler.go:31	wrong theme name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	/Users/david/sdk/go1.18/src/runtime/panic.go:838
+github.com/GoAdminGroup/go-admin/template.Get
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/template/template.go:136
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.aTemplate
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/common.go:297
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.aForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/common.go:257
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:102
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:31
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/edit.go:72
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-02T17:57:36.718+0800	[31mERROR[0m	controller/handler.go:31	wrong theme name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	/Users/david/sdk/go1.18/src/runtime/panic.go:838
+github.com/GoAdminGroup/go-admin/template.Get
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/template/template.go:136
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.aTemplate
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/common.go:297
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.aForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/common.go:257
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:102
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/edit.go:31
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).ShowForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/edit.go:72
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:19:30.451+0800	[31mERROR[0m	table/default.go:851	项目存在
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/table.(*DefaultTable).InsertData.func1.1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/table/default.go:851
+2023-03-04T12:36:26.588+0800	[31mERROR[0m	controller/handler.go:31	no such column: deleted_at
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	/Users/david/sdk/go1.18/src/runtime/panic.go:838
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Sqlite).QueryWithConnection
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/db/sqlite.go:49
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/table.(*DefaultTable).getDataFromDatabase
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/table/default.go:565
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/table.(*DefaultTable).GetData
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/table/default.go:148
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showTableData
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/show.go:70
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).showTable
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/show.go:102
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/show.go:60
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:37:34.771+0800	[31mERROR[0m	controller/new.go:118	insert data error: UNIQUE constraint failed: projects.project_name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:43:43.372+0800	[31mERROR[0m	controller/delete.go:24	no affect row
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Delete
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/delete.go:24
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).Delete
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/delete.go:35
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:48:04.753+0800	[31mERROR[0m	controller/new.go:118	insert data error: UNIQUE constraint failed: projects.project_name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:49:30.911+0800	[31mERROR[0m	controller/new.go:118	insert data error: UNIQUE constraint failed: projects.project_name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:50:08.629+0800	[31mERROR[0m	controller/new.go:118	insert data error: UNIQUE constraint failed: projects.project_name
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+main.Cors.func1
+	/Users/david/Documents/golang/dogxss/main.go:85
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/david/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/Users/david/sdk/go1.18/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/Users/david/sdk/go1.18/src/net/http/server.go:1966
+2023-03-04T12:50:08.629+0800	[31mERROR[0m	table/default.go:851	post error: UNIQUE constraint failed: projects.project_name
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/table.(*DefaultTable).InsertData.func1.1
+	/Users/david/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.24/plugins/admin/modules/table/default.go:851
