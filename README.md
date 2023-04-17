@@ -22,6 +22,10 @@ dogxss -d www.baidu.com -key ssl.key -pem ssl.pem
 指定域名和证书即可,默认绑定的是80和445端口,可按照自己的需求进行二开.
 exp的地址默认前缀是x,如生成的项目名是a,那么exp地址就是www.baidu.com/x/a
 可以自己在config/config.go中修改前缀.
+
+需要测试的话，直接下载windows的版本.
+然后执行dogxss.exe -d 127.0.0.1运行即可。
+如果不使用ssl的话,那么https的站点就无法执行js.
 ```
 
 ## 一些截图
