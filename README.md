@@ -27,7 +27,13 @@ exp的地址默认前缀是x,如生成的项目名是a,那么exp地址就是www.
 然后执行dogxss.exe -d 127.0.0.1运行即可。
 如果不使用ssl的话,那么https的站点就无法执行js.
 ```
-
+## 编译命令
+```shell
+Windows:
+go build -o dogxss.exe -ldflags "-w -s" --trimpath main.go
+Linux(由于sqlite库的问题,需在linux主机上编译):
+go build -o dogxss -ldflags "-w -s" --trimpath main.go
+```
 ## 一些截图
 主页
 ![主页](jpg/index.jpg)
