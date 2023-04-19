@@ -5,6 +5,7 @@
 .
 ---
 **基于GoAdmin开发和ezxss payload完成**
+ezxss的js支持截图,源码获取,SessionStorage等功能
 
 ps:支持一键快速启动,必须使用https,需要指定ssl私钥证书
 
