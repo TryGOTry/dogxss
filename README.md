@@ -34,6 +34,7 @@ Windows:
 go build -o dogxss.exe -ldflags "-w -s" --trimpath main.go
 Linux(由于sqlite库的问题,需在linux主机上编译):
 go build -o dogxss -ldflags "-w -s" --trimpath main.go
+ps:编译完成后请在当前目录下建立exp目录
 ```
 ## 一些截图
 主页
